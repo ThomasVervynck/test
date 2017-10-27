@@ -1,10 +1,10 @@
 # Enterprise Linux Lab Report - Troubleshooting
 
 - Student name: NAME
-- Class/group: TIN-TI-3B (Gent), TIN2-TI-3B (Aalst), TIN-TILE (Afstandsleren) [weglaten wat niet past]
+- Class/group: TIN-TI-3B (Gent) [weglaten wat niet past]
 
 ## Instructions
-`###`
+
 - Write a detailed report in the "Report" section below (in Dutch or English)
 - Use correct Markdown! Use fenced code blocks for commands and their output, terminal transcripts, ...
 - The different phases in the bottom-up troubleshooting process are described in their own subsections (heading of level 3, i.e. starting with `###`) with the name of the phase as title.
@@ -19,7 +19,8 @@
     - describe any error messages that still remain
 
 ## Report
-
+# Observatie
+Bij het starten van de VM: error: following physical network interfaces were not found:vboxnet0
 ### Phase 1: NAME
 
 
