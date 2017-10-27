@@ -19,14 +19,39 @@
     - describe any error messages that still remain
 
 ## Report
-# Observatie
-Bij het starten van de VM: error: following physical network interfaces were not found:vboxnet0
-### Phase 1: NAME
+### Phase 1:Observatie
+* Bij het starten van de VM: error: following physical network interfaces were not found:vboxnet0
+### Phase 2:Hypotese
+* verkeerde netwerkinstellingen vbox
+### Phase 3:Voorspelling
+* 2e adapter uitschakelen
+### Phase 4:Test
+* network settings van de vm -> 2e adapter uitschakelen
+### Phase 5:Analyse 
+* aanpassing is succesvol vm start op
 
+### Phase 1:Observatie
+* keyboard staat in qwery
+### Phase 2:Hypotese
+* verkeerde keyboardinstelling
+### Phase 3:Voorspelling
+* keyboardinstellingen veranderen 
+### Phase 4:Test
+* `loadkeys fr`
+### Phase 5:Analyse 
+* aanpassing is succesvol keyboard is azerty
 
-### Phase 2: NAME
+### Phase 1:Observatie
+* pingen lukt nier
+### Phase 2:Hypotese
+* verkeerde ipinstellingen
+### Phase 3:Voorspelling
+* ip isntellingen aanpassen 
+### Phase 4:Test
+* `ip a`
+### Phase 5:Analyse 
+* default ip van vbox `10.0.2.15` state is: up
 
-...
 
 ## End result
 
@@ -35,3 +60,4 @@ Bij het starten van de VM: error: following physical network interfaces were not
 ## Resources
 
 List all sources of useful information that you encountered while completing this assignment: books, manuals, HOWTO's, blog posts, etc.
+https://askubuntu.com/questions/550937/change-from-qwerty-to-azerty-in-command-line
