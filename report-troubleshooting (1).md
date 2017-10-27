@@ -4,7 +4,7 @@
 - Class/group: TIN-TI-3B (Gent), TIN2-TI-3B (Aalst), TIN-TILE (Afstandsleren) [weglaten wat niet past]
 
 ## Instructions
-
+[test]
 - Write a detailed report in the "Report" section below (in Dutch or English)
 - Use correct Markdown! Use fenced code blocks for commands and their output, terminal transcripts, ...
 - The different phases in the bottom-up troubleshooting process are described in their own subsections (heading of level 3, i.e. starting with `###`) with the name of the phase as title.
