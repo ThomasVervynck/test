@@ -120,6 +120,7 @@ systemctl disable httpd
 ```
 * ssl keys
 * Gevonden dat het pad naar de ssl verkeerd genoteerd was aangepast met vi
+poorten van ssl gewijzigd van 8433 naar 433
 ### Phase 5:Analyse 
 * service nginx is running
 ## End result
