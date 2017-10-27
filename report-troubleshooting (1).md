@@ -120,9 +120,22 @@ systemctl disable httpd
 ```
 * ssl keys
 * Gevonden dat het pad naar de ssl verkeerd genoteerd was aangepast met vi
-poorten van ssl gewijzigd van 8433 naar 433
+* poorten van ssl gewijzigd van 8443 naar 443
+* Servername van _ naar localhost veranderen
 ### Phase 5:Analyse 
 * service nginx is running
+
+### Phase 1:Observatie
+* Curl naar de nginx geeft access denied 
+### Phase 2:Hypotese
+* chmod settings
+### Phase 3:Voorspelling
+* chmod settings aanpassen 
+### Phase 4:Test
+* `chmod 755/usr/share/nginx/`
+### Phase 5:Analyse 
+* ik kan een curl uitvoeren naar localhost en krijg de nginx pagina
+## Applicatielaag
 ## End result
 
 
